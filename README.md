@@ -2,7 +2,8 @@
 
 ```
 opam install jbuilder
-jbuilder build bin/main.exe
+
+make build
 ```
 
 #### How to run
