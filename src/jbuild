@@ -1,7 +1,6 @@
-(jbuild_version 1)
-
 (library
   ((name example01_lib)
-   (public_name example01_lib)
-   (libraries (example01_lib))
+   ;; Without the following line, the libraries module will be available
+   ;; under Example01_lib.Module_name only
+   (wrapped false)
    (synopsis "Description for this library...")))
