@@ -1,4 +1,5 @@
 (executables
   ((names (main))
    (modules (main))
-   (libraries (example01_lib))))
+   ;; `example_lib` is the name defined in `src/jbuild`
+   (libraries (example_lib))))
